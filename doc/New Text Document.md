@@ -20,9 +20,9 @@ Definition: An "API Document" is a multi-page document formatted like a book wit
 * Images (with optional thumbnails linking to full-size versions.)
 * Anchors and Links (named link targets on a page, and links to pages, terms, and external resources.)
 *** Definition expansions (inline replacement of a reference to a term with its definition.)
-*** Code text with multi-language syntax highlighting. Code text may contain additional Markdown attributes indicating that the code can be used as a Code Sample. Code Samples are parsed at build time to generate QA tests, and at release time to generate “Try It” API Console functionality on the XE Registry web site.
+*** Code text with multi-language syntax highlighting. Code text may contain additional Markdown attributes indicating that the code can be used as a Code Sample. Code Samples are parsed at build time to generate QA tests, and at release time to generate ï¿½Try Itï¿½ API Console functionality on the XE Registry web site.
 * At release: 
 ** API Documents are emitted in PDF and zipped HTML formats. 
-** For the HTML version, Code Samples embedded in the API document are extracted and used to generate “Try It” interfaces.
+** For the HTML version, Code Samples embedded in the API document are extracted and used to generate ï¿½Try Itï¿½ interfaces.
 ** They are distributed along with the rest of the documentation, and uploaded to the Ellucian XE Registry website hosted on Salesforce. 
 ** We will add steps to hand-off API Document sources for translation to additional languages in a later phase.
