@@ -26,3 +26,15 @@ Definition: An "API Document" is a multi-page document formatted like a book wit
 	* For the HTML version, Code Samples embedded in the API document are extracted and used to generate "Try It" interfaces.
 	* They are distributed along with the rest of the documentation, and uploaded to the Ellucian XE Registry website hosted on Salesforce. 
 	* We will add steps to hand-off API Document sources for translation to additional languages in a later phase.
+
+A test of code highlighting
+==================
+
+```javascript
+function (a) {
+	var x = document.getElementById('foo');
+	console.log x;
+}
+````
+
+The afterward.
