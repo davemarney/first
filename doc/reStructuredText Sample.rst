@@ -1,30 +1,10 @@
-Chapter 1 Title
-===============
+Testing reST directives
+=======================
 
-Section 1.1 Title
------------------
+Replace
 
-Subsection 1.1.1 Title
-~~~~~~~~~~~~~~~~~~~~~~
+.. |reST| replace:: reStructuredText
 
-Section 1.2 Title
------------------
+Yes, |reST| is a long word, so I can't blame anyone for wanting to
+abbreviate it.
 
-Chapter 2 Title
-===============
-
-The ``example`` module
-======================
-
-Using ``factorial``
--------------------
-
-This is an example text file in reStructuredText format.  First import
-``factorial`` from the ``example`` module:
-
-    >>> from example import factorial
-
-Now use it:
-
-    >>> factorial(6)
-    120
